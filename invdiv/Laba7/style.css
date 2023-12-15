@@ -1,0 +1,72 @@
+body {
+    background-image: url('/mm.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.inp {
+    border-radius: 23px;
+    width: 80%;
+    max-width: 300px;
+    height: 40px;
+    border: solid;
+    text-align: center;
+    border-color: whitesmoke;
+    background-color: white;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bu {
+    width: 80%;
+    max-width: 100px;
+    height: 30px;
+    border-radius: 40px;
+    border-color: whitesmoke;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.hu {
+    width: 100%;
+}
+
+.tefich {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .tefich {
+        font-size: 4vw;
+    }
+}
